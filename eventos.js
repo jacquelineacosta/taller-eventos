@@ -1,7 +1,9 @@
-let elDiv = document.getElementsByTagName("div");
+document.addEventListener('DOMContentLoaded', function() {
 
-function saludoDiv() {
-    alert( 'Hola, soy el div!' );
-  }
+const midiv = document.getElementById("midiv");
 
-elDiv.addEventListener("click", saludoDiv);
+midiv.addEventListener("click", function (){
+  alert( 'Hola, soy el div!' );
+});
+
+});
